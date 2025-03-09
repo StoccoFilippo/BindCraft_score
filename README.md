@@ -10,15 +10,12 @@ This script evaluates the parameters used for loss and filtering in the [BindCra
    git clone https://github.com/dauparas/ProteinMPNN functions/ProteinMPNN
    ```
 2. Set up the **BindCraft** Conda environment as described in the `bindcraft` folder.
-3. Provide as input:
-<ol type="a">
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Milk</li>
-</ol>
-      a . **FASTA file**
-      b . **AlphaFold3 (AF3) results** in a directory (see example of inputs). Note that the binder should be "B", while the target should be "A"
-      c . PDB of the target without any binder
+3. Provide the following inputs:
+
+    FASTA file
+    AlphaFold3 (AF3) results in a directory (see example inputs).
+    ⚠️ The binder should be labeled as "B", while the target should be labeled as "A".
+    PDB file of the target without any bind
 
 ### Output:
 The script generates a **CSV file** containing all scoring parameters.
