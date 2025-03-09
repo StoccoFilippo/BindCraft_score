@@ -11,6 +11,11 @@ This script evaluates the parameters used for loss and filtering in the [BindCra
    ```
 2. Set up the **BindCraft** Conda environment as described in the `bindcraft` folder.
 3. Provide as input:
+<ol type="a">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
       a . **FASTA file**
       b . **AlphaFold3 (AF3) results** in a directory (see example of inputs). Note that the binder should be "B", while the target should be "A"
       c . PDB of the target without any binder
