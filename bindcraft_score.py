@@ -246,7 +246,7 @@ def get_pMPNN(pdb_file):
        
             command_line_arguments = [
                 "python",
-                "./functions/protein_mpnn_run.py",
+                "./functions/ProteinMPNN/protein_mpnn_run.py",
                 "--pdb_path", pdb_file,
                 "--pdb_path_chains", "B",
                 "--score_only", "1",
