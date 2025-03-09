@@ -1,10 +1,18 @@
-# BindCraft scoring
 
-this scripts scores the parameters used as loss and filtering in the Bindcraft paper https://github.com/martinpacesa/BindCraft. 
+# BindCraft Scoring
 
-## Use:
-git clone ProteinMPNN inside functions folder
-set up Bindcraft conda enviroment as showed in bindcraft folder
-Use as input a fasta file and the AF3 results. It gives in output a csv file with all the parameters.
+This script evaluates the parameters used for loss and filtering in the [BindCraft paper](https://github.com/martinpacesa/BindCraft). 
 
-work in progress :) 
+## Usage
+
+1. Clone **ProteinMPNN** inside the `functions` folder:
+   ```bash
+   git clone https://github.com/dauparas/ProteinMPNN functions/ProteinMPNN
+   ```
+2. Set up the **BindCraft** Conda environment as described in the `bindcraft` folder.
+3. Provide a **FASTA file** and **AlphaFold3 (AF3) results** as input.
+
+### Output:
+The script generates a **CSV file** containing all scoring parameters.
+
+🚧 *Work in progress!* 🚧
