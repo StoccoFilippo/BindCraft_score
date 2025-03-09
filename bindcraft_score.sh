@@ -34,7 +34,7 @@ conda activate BindCraft
 # run command #
 ###############
 
-python bindcraft_score.py --fasta_file "fastain.fasta" --pdb_folder "./alphafold_output" --target_pdb "egfr.pdb" --output_folder "./bindcraft_output" --output_name "egfr"
+python bindcraft_score.py --fasta_file "fastain.fasta" --pdb_folder "./alphafold_output" --target_pdb "egfr.pdb" 
 
 ###############
 # end message #
