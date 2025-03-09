@@ -231,13 +231,9 @@ def get_contact_probs(sequences_rep, pdb_folder):
         chain_map = get_chain_indices(chain_ids)
         sub_probs = compute_inter_chain_contacts(contact_probs, chain_map, chain1='B', chain2='A')
 
-        contact_DNA = compute_contact_points(sub_probs, chain_ids_target)
-        hotspot_residues = [18,43,44,46,49,50,53,61,62,64,65,66,68,69,70,72,73,75,76,77,80]
+        contact = compute_contact_points(sub_probs, chain_ids_target)
 
-        # Sum elements at the specified indices
-        sum_targets = np.sum(contact_DNA[hotspot_residues])
-        sum_off_target = np.sum(contact_DNA) - sum_targets
-        sequences_rep[name]["contact_probs"] = sum_targets - sum_off_target
+        sequences_rep[name]["contact_probs"] = np.sum(contact)
 
     return sequences_rep
 
