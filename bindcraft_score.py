@@ -433,7 +433,7 @@ def score_sequences(fasta_file, pdb_folder, target_pdb):
 # ---------------------------
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--fasta_file", type=int, required=True)
+    parser.add_argument("--fasta_file", type=str, required=True)
     parser.add_argument("--pdb_folder", type=str, required=True)
     parser.add_argument("--target_pdb", type=str, required=True)
 
