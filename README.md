@@ -9,7 +9,7 @@ This script evaluates the parameters used for loss and filtering in the [BindCra
    ```bash
    git clone https://github.com/dauparas/ProteinMPNN functions/ProteinMPNN
    ```
-2. Set up the **BindCraft** Conda environment as described in the `bindcraft` folder.
+2. Set up the **BindCraft** Conda environment as described in the original [repo](https://github.com/martinpacesa/BindCraft).
 3. Provide the following inputs:\
     a. FASTA file\
     b. AlphaFold3 (AF3) results in a directory (see example inputs). ⚠️ The binder chain_ID should be "B" ⚠️\
